@@ -1,7 +1,18 @@
+body{
+    margin: 0px;
+}
+
 img{
     width: 450px;
     height:450px;
     padding: 3px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(2.2);  
+    /* transform: scale(1.1);   */
+
 }
 
 .container{
@@ -16,4 +27,6 @@ h1{
     text-align: center;
     border-bottom: 2px solid blue;
     border-right: 2px solid blue;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 10px;
 }
