@@ -1,0 +1,19 @@
+img{
+    width: 450px;
+    height:450px;
+    padding: 3px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h1{
+    font-family: fantasy;
+    text-align: center;
+    border-bottom: 2px solid blue;
+    border-right: 2px solid blue;
+}
